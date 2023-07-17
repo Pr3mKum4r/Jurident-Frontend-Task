@@ -89,4 +89,7 @@ h5{
     .footer-about-text-container{
         margin-left: 5px;
     }
+    .socials-footer{
+        height: 20vh;
+    }
 }

@@ -17,7 +17,7 @@ const CoreValues = () => {
         clients integrating the various disciplines necessary to carryout
         projects from inception to Successful completion
       </p>
-      <h2>3. SERVICE</h2>
+      <h2>3. Service</h2>
       <p>
         StructuraWorks ensure best & next level service for you. From the
         inception to completion you will be ultimately satisfied with
