@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+
+.main-content-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 70vh;
+    margin-left: 30px;
+}
+
+.img-container{
+    display: flex;
+    width: 40%;
+    margin-left: 100px;
+}
+.hero-img{
+    height: 400px;
+    width: 600px;
+}
+
+h1{
+    font-size: 30pt;
+    margin: 10px; 
+    font-family: 'Fredoka', sans-serif; 
+}
+
+h2{
+    margin: 10px 10px 50px 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.text-container p{
+    font-size: 18pt;
+    font-family: 'Manrope', sans-serif;
+    text-align:center
+}
+
+@media only screen and (max-width: 800px) {
+    .main-content-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-container{
+        margin-left: 0px;
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .text-container{
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hero-img{
+        height: 200px;
+        width: 350px;
+    }
+}

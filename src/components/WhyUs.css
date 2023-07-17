@@ -1,0 +1,23 @@
+.why-us-container{
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.why-us-container h1{
+    font-size: 30pt;
+    margin: 10px 10px 25px 10px; 
+    font-family: 'Fredoka', sans-serif; 
+    text-align: center;
+}
+
+.why-us-container h2{
+    margin: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.why-us-container p{
+    font-size: 13pt;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
+}

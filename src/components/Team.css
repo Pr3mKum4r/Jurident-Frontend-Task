@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.team-table-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rwd-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  font-family: 'Manrope', sans-serif;
+}
+
+.rwd-table thead tr:nth-child(1){
+  background-color: #0073ff;
+  color: #cee6ef;
+  opacity: 0.8;
+}
+
+.rwd-table td:nth-child(1){
+  background-color: #0073ff;
+  color: #cee6ef;
+  opacity: 0.8;
+}
+
+.rwd-table tbody tr:nth-child(2n){
+  background-color: #00a6ff69;
+}
+
+.rwd-table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+  background-color: #0073ff28;
+}
+
+.rwd-table th,
+.rwd-table td {
+  padding: .625em;
+  text-align: center;
+}
+
+.rwd-table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .rwd-table {
+    border: 0;
+    width: 70%;
+  }
+
+  .rwd-table caption {
+    font-size: 1.3em;
+  }
+  
+  .rwd-table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .rwd-table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .rwd-table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+  }
+  
+  .rwd-table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .rwd-table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.footer-container{
+    margin-top: 50px;
+}
+
+.socials-footer{
+    height: 28vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    background-color: #1F253B;
+}
+
+.end-footer p{
+    font-family: 'Manrope', 'sans-serif';
+}
+
+h4{
+    font-weight: 700;
+    font-size: 15pt;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    margin: 5px;
+    font-weight: 200;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-logo{
+    height: 50px;
+    padding: 5px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.programs, .resources, .legal{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 15px 0 15px;
+}
+
+.footer-about-text-container{
+    display: flex;
+}
+
+@media only screen and (max-width: 870px) {
+    h4{
+        font-size: 9pt;
+    }
+    h5{
+        font-size: 8pt;
+    }
+    .programs, .resources, .legal{
+        margin: 0 2px 0 2px;
+    }
+    .footer-logo{
+        height: 30px;
+    }
+    .logo-text{
+        flex-direction: column;
+    }
+    .footer-about-text-container{
+        margin-left: 5px;
+    }
+}
