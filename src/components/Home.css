@@ -70,4 +70,7 @@ h2{
         height: 200px;
         width: 350px;
     }
+    .text-container h1{
+        margin: 10px;
+    }
 }
